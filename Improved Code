@@ -1,0 +1,26 @@
+# Import the math library to be able to use the sqrt and pow functions, and to solve the distance.
+import math
+
+# Input the coordinates of each point, starting with point 1.
+point_x1 = (float(input("Enter the x1: ")))
+point_y1 = (float(input("Enter the y1: ")))
+
+# Input the coordinates of point 2.
+point_x2 = (float(input("Enter the x2: ")))
+point_y2 = (float(input("Enter the y2: ")))
+
+# Input the distance formula to be able to solve the problem. 
+distance = math.sqrt(pow(point_x2-point_x1, 2))
+
+# Input the formulas for point a and point b.
+point_a = pow(point_x2-point_x1, 2)
+point_b = pow(point_y2-point_y1, 2)
+
+# Display the formula for the result variable.
+result = point_a+point_b
+
+# Calculate the final distance by square rooting the result variable (sqrt).
+distance = math.sqrt(result)
+
+# Display the final distance.
+print("The distance is", distance)
