@@ -1,0 +1,10 @@
+num1 = float(input("Enter num1: "))
+num2 = float(input("Enter num2: "))
+operation = input("Enter operation: ")
+
+# 2. Your Functions (Cleaned up and sitting at the left wall)
+def add_numbers(num1, num2):
+    return num1 + num2
+
+def subtract_numbers(num1, num2):
+    return num1 - num2
